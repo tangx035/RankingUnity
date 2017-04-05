@@ -50,14 +50,14 @@ public class RankingData : MonoBehaviour
 //		{
 		DataList.Sort();
 //		Debug.Log (DataList);
-		arrayForList[0] = DataList[0];
-		arrayForList[1] = DataList[1];
-		arrayForList[2] = DataList[2];
-		arrayForList[3] = DataList[3];
-		arrayForList[4] = DataList[4];
-		arrayForList[5] = DataList[5];
-		arrayForList[6] = DataList[6];
-		arrayForList[7] = DataList[7];
+		arrayForList[0] = (float)DataList[0];
+		arrayForList[1] = (float)DataList[1];
+		arrayForList[2] = (float)DataList[2];
+		arrayForList[3] = (float)DataList[3];
+		arrayForList[4] = (float)DataList[4];
+		arrayForList[5] = (float)DataList[5];
+		arrayForList[6] = (float)DataList[6];
+		arrayForList[7] = (float)DataList[7];
 
 //		printOutList ();
 		RankedTextList();
